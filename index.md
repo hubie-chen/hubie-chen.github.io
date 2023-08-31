@@ -10,7 +10,9 @@ E-mail address: (five-letter first name)(dot)(last name) plus (at)(kcl)(dot)(ac)
 
 ---
 
-*On opportunities at King's:* please get in touch if you are interested in a postdoctoral position or Ph.D. position with me at King's.
+[//]: # *Funded Ph.D. position in theoretical computer science at King's:* please [see here for more information](phd.html).
+
+
 
 
 ### Book
@@ -61,6 +63,24 @@ Theory of Computing Systems 63(7): 1573–1594, 2019.  Conference version appear
 * Hubie Chen and Matthew Valeriote.
 [Learnability of Solutions to Conjunctive Queries](http://jmlr.org/papers/v20/17-734.html).
 Journal of Machine Learning Research 20: 67:1–67:28, 2019.  Conference version appeared in: Conference on Learning Theory (COLT), Paris, France, pp 326–337, 2015.  
+
+* Hubie Chen and Stefan Mengel.
+[The logic of counting query answers](https://arxiv.org/abs/1501.07195).
+Symposium on Logic in Computer Science (LICS), Reykjavik, Iceland, pp 1–12, 2017.  
+
+* Hubie Chen and Benoît Larose.
+[Asking the Metaquestions in Constraint Tractability](https://arxiv.org/abs/1604.00932).
+ACM Transactions on Computation Theory 9(3): 11:1–11:27, 2017.  
+
+* Hubie Chen and Stefan Mengel.
+[Counting Answers to Existential Positive Queries: A Complexity Classification](https://arxiv.org/abs/1601.03240).
+Symposium on Principles of Database Systems (PODS), San Francisco, USA, pp 315–326, 2016.  
+
+* Hubie Chen, Matthew Valeriote, and Yuichi Yoshida.
+Testing Assignments to Constraint Satisfaction Problems.
+Symposium on Foundations of Computer Science (FOCS), New Brunswick, New Jersey, USA, pp 525–534, 2016.  
+
+
 
 
 <script type="text/javascript">
