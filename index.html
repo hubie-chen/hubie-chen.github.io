@@ -11,8 +11,11 @@
     div.columns{display: flex; gap: min(4vw, 1.5em);}
     div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
     ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
       width: 0.8em;
       margin: 0 0.8em 0.2em -1.6em;
       vertical-align: middle;
@@ -20,9 +23,6 @@
     .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
   <link rel="stylesheet" href="pandoc.css" />
-  <!--[if lt IE 9]>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
-  <![endif]-->
 </head>
 <body>
 <p><img src="hubiephoto.jpg" alt="photo" style="height: 180px;"/></p>
@@ -34,16 +34,13 @@ London, United Kingdom</p>
 <p>E-mail address: (five-letter first name)(dot)(last name) plus
 (at)(kcl)(dot)(ac)(dot)(uk)</p>
 <hr />
-<p><em>Postdoctoral position in theoretical computer science at
-King’s:</em> please <a href="postdoc2024.html">see here for more
-information</a>; application deadline is June 6, 2024.</p>
 <h3 id="book">Book</h3>
 <ul>
 <li><p>Computability and Complexity, by Hubie Chen. MIT Press,
 2023.<br />
 <a
 href="https://mitpress.mit.edu/9780262048620/computability-and-complexity/">MIT
-Press website</a></p>
+Press website for book</a></p>
 <p>This initiation to the theory of computation has been praised as a
 “beautifully comprehensive introduction to automata, computability, and
 complexity theory” that “discusses the landmark theorems very carefully”
@@ -74,19 +71,19 @@ CC-BY-NC-ND license.</p></li>
 <h3 id="selected-articles">Selected articles</h3>
 <ul>
 <li><p>Hubie Chen and Stefan Mengel.<br />
-Optimally Rewriting Formulas and Database Queries: A Confluence of Term
-Rewriting, Structural Decomposition, and Complexity.<br />
-ICDT 2024.</p></li>
+<a href="https://doi.org/10.4230/LIPIcs.ICDT.2024.16">Optimally
+Rewriting Formulas and Database Queries: A Confluence of Term Rewriting,
+Structural Decomposition, and Complexity</a>.<br />
+ICDT 2024. Invited to LMCS special issue of ICDT 2024.</p></li>
 <li><p>Hubie Chen, Gianluigi Greco, Stefan Mengel, and Francesco
 Scarcello.<br />
 <a href="https://arxiv.org/abs/2311.14579">Counting Solutions to
 Conjunctive Queries: Structural and Hybrid Tractability</a>.<br />
 arXiv:2311.14579.</p></li>
 <li><p>Hubie Chen.<br />
-<a href="https://arxiv.org/abs/2005.11307">Algebraic Global Gadgetry for
-Surjective Constraint Satisfaction</a>.<br />
-arXiv:2005.11307.<br />
-Computational Complexity (accepted in 2024; to appear).</p></li>
+<a href="https://doi.org/10.1007/s00037-024-00253-4">Algebraic Global
+Gadgetry for Surjective Constraint Satisfaction</a>.<br />
+Computational Complexity (33) 7, 2024.</p></li>
 <li><p>Hubie Chen, Bart M. P. Jansen, Karolina Okrasa, Astrid Pieterse,
 and Paweł Rzążewski.<br />
 <a href="https://dl.acm.org/doi/10.1145/3612938">Sparsification Lower
@@ -120,10 +117,10 @@ How Many Variables are Needed to Express an Existential Positive
 Query?.<br />
 Theory of Computing Systems 63(7): 1573–1594, 2019. Conference version
 appeared in: International Conference on Database Theory (ICDT), Venice,
-Italy, pp 9:1–9:16, 2017.</p>
+Italy, pp 9:1–9:16, 2017. ICDT 2017 Best Paper Award.</p>
 <p>Note: <a href="https://arxiv.org/abs/2303.13222">H. Andréka, J. van
-Benthem, and I. Németi</a> point out that this article settles a
-“long-standing open problem”.</p></li>
+Benthem, and I. Németi</a> point out (in their Section 2) that this
+article settles a “long-standing open problem”.</p></li>
 <li><p>Hubie Chen and Matthew Valeriote.<br />
 <a href="http://jmlr.org/papers/v20/17-734.html">Learnability of
 Solutions to Conjunctive Queries</a>.<br />
