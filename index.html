@@ -11,8 +11,11 @@
     div.columns{display: flex; gap: min(4vw, 1.5em);}
     div.column{flex: auto; overflow-x: auto;}
     div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
     ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
       width: 0.8em;
       margin: 0 0.8em 0.2em -1.6em;
       vertical-align: middle;
@@ -20,9 +23,6 @@
     .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
   <link rel="stylesheet" href="pandoc.css" />
-  <!--[if lt IE 9]>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
-  <![endif]-->
 </head>
 <body>
 <p><img src="hubiephoto.jpg" alt="photo" style="height: 180px;"/></p>
@@ -35,12 +35,23 @@ London, United Kingdom</p>
 (at)(kcl)(dot)(ac)(dot)(uk)</p>
 <hr />
 <h3 id="book">Book</h3>
-<ul>
-<li><p>Computability and Complexity, by Hubie Chen. MIT Press,
-2023.<br />
+<p>Computability and Complexity, by Hubie Chen. MIT Press, 2023.<br />
 <a
 href="https://mitpress.mit.edu/9780262048620/computability-and-complexity/">MIT
 Press website for book</a></p>
+<p><strong>Reception</strong></p>
+<blockquote>
+<p>“The subject is built up very carefully … This is a very complete
+treatment of the standard subject.” – MAA Reviews</p>
+</blockquote>
+<blockquote>
+<p>“The physical book is attractively constructed, with beautiful and
+informative illustrations. … The explanation of fixed-parameter
+tractability (FPT) in Chen’s book is the best I have seen. … I am glad
+that Chen has brought [FPT] to the standard curriculum with his
+well-crafted textbook.” – Bulletin of Symbolic Logic</p>
+</blockquote>
+<p><strong>Description</strong></p>
 <p>This initiation to the theory of computation has been praised as a
 “beautifully comprehensive introduction to automata, computability, and
 complexity theory” that “discusses the landmark theorems very carefully”
@@ -66,8 +77,7 @@ cover topics such as Gödel incompleteness, counting complexity,
 logarithmic space complexity, and treewidth.</p>
 <p><a href="ComputComplex_excerpt.pdf">An excerpt of this book</a> is
 freely useable and freely distributable under a Creative Commons
-CC-BY-NC-ND license.</p></li>
-</ul>
+CC-BY-NC-ND license.</p>
 <h3 id="selected-articles">Selected articles</h3>
 <ul>
 <li><p>Mahmoud Abo Khamis and Hubie Chen.<br />
