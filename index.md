@@ -10,15 +10,29 @@ E-mail address: (five-letter first name)(dot)(last name) plus (at)(kcl)(dot)(ac)
 
 ---
 
-[//]: # *Funded Ph.D. position in theoretical computer science at King's:* please [see here for more information](phd.html).
-
 
 
 
 ### Book
 
-* Computability and Complexity, by Hubie Chen.  MIT Press, 2023.
-[MIT Press website](https://mitpress.mit.edu/9780262048620/computability-and-complexity/)
+Computability and Complexity, by Hubie Chen.  MIT Press, 2023.
+[MIT Press website for book](https://mitpress.mit.edu/9780262048620/computability-and-complexity/)
+
+**Reception**
+
+
+>  "A beautifully comprehensive introduction to automata, computability, and complexity theory ..."  -- Ryan Williams, MIT
+
+> "... discusses the landmark theorems very carefully. The definitions are clear and well-motivated, while the results and full formal proofs are illustrated by well-chosen examples. Students, instructors, and computer scientists will surely love this fascinating book."  -- Georg Gottlob, University of Oxford
+
+>  "The subject is built up very carefully ... This is a very complete treatment of the standard subject."  -- MAA Reviews
+  
+>  "The physical book is attractively constructed, with beautiful and informative illustrations. ... The explanation of fixed-parameter tractability (FPT) in Chen's book is the best I have seen. ... I am glad that Chen has brought [FPT] to the standard curriculum with his well-crafted textbook."  -- Bulletin of Symbolic Logic
+
+>  "... deserving of a place on the bookshelf of anyone planning to do research in theory of computation."  -- SIGACT News
+
+
+**Description**
 
   This initiation to the theory of computation has been praised as a "beautifully comprehensive introduction to automata, computability, and complexity theory" that "discusses the landmark theorems very carefully" and is "presented with a high level of mathematical rigor."  This book combines intuitive discussion---backed by numerous diagrams and examples---with a precise mathematical treatment that includes comprehensive proofs.
     
@@ -31,14 +45,33 @@ E-mail address: (five-letter first name)(dot)(last name) plus (at)(kcl)(dot)(ac)
   * Complexity theory -- time complexity classes (P, NP, and coNP), the P versus NP question, the theories of NP-completeness and of coNP-completeness, numerous completeness proofs, the space complexity class PSPACE, hierarchy theorems, parameterized complexity.
   
   Numerous exercises and notes expand upon the main presentation and cover topics such as Gödel incompleteness, counting complexity, logarithmic space complexity, and treewidth.
-  
+
+  [An excerpt of this book](ComputComplex_excerpt.pdf) is freely useable and freely distributable under a Creative Commons CC-BY-NC-ND license.
 
 
 ### Selected articles
 
+* Mahmoud Abo Khamis and Hubie Chen.
+[Jaguar: A Primal Algorithm for Conjunctive Query Evaluation in Submodular-Width Time](https://arxiv.org/abs/2603.13624).
+PODS 2026.
+
+* Hubie Chen and Stefan Mengel.
+[Optimally Rewriting Formulas and Database Queries: A Confluence of Term Rewriting, Structural Decomposition, and Complexity](https://doi.org/10.4230/LIPIcs.ICDT.2024.16).
+ICDT 2024.  Invited to LMCS special issue of ICDT 2024.
+
+* Hubie Chen, Gianluigi Greco, Stefan Mengel, and Francesco Scarcello.
+[Counting Solutions to Conjunctive Queries: Structural and Hybrid Tractability](https://arxiv.org/abs/2311.14579).
+arXiv:2311.14579.
+
+
 * Hubie Chen.
-[Algebraic Global Gadgetry for Surjective Constraint Satisfaction](https://arxiv.org/abs/2005.11307).
-arXiv:2005.11307.  
+[Algebraic Global Gadgetry for Surjective Constraint Satisfaction](https://doi.org/10.1007/s00037-024-00253-4).
+Computational Complexity (33) 7, 2024.
+
+* Hubie Chen, Bart M. P. Jansen, Karolina Okrasa, Astrid Pieterse, and Paweł Rzążewski.
+[Sparsification Lower Bounds for List H-Coloring](https://dl.acm.org/doi/10.1145/3612938).
+ACM Transactions on Computation Theory (15) 3-4: 8:1-8:23, 2023.
+
 
 * Hubie Chen, Georg Gottlob, Matthias Lanzinger, and Reinhard Pichler.
 [Semantic Width and the Fixed-Parameter Tractability of Constraint Satisfaction Problems](https://www.ijcai.org/proceedings/2020/239).
@@ -58,7 +91,9 @@ Symposium on Principles of Database Systems (PODS), Amsterdam, The Netherlands, 
 
 * Simone Bova and Hubie Chen.
 How Many Variables are Needed to Express an Existential Positive Query?.
-Theory of Computing Systems 63(7): 1573–1594, 2019.  Conference version appeared in: International Conference on Database Theory (ICDT), Venice, Italy, pp 9:1–9:16, 2017.  
+Theory of Computing Systems 63(7): 1573–1594, 2019.  Conference version appeared in: International Conference on Database Theory (ICDT), Venice, Italy, pp 9:1–9:16, 2017.  ICDT 2017 Best Paper Award.
+
+  Note: [H. Andréka, J. van Benthem, and I. Németi](https://arxiv.org/abs/2303.13222) point out (in their Section 2) that this article settles a "long-standing open problem".
 
 * Hubie Chen and Matthew Valeriote.
 [Learnability of Solutions to Conjunctive Queries](http://jmlr.org/papers/v20/17-734.html).
